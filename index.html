@@ -1,0 +1,442 @@
+<script type="text/javascript">
+	atOptions = {
+		'key' : 'be363fb8fc518f104c1445d573b447cf',
+		'format' : 'iframe',
+		'height' : 60,
+		'width' : 468,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.highperformanceformat.com/be363fb8fc518f104c1445d573b447cf/invoke.js"></script>
+<!DOCTYPE html>
+<html lang="kn">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>ಶ್ರಾವಣ ಸೋಮವಾರದ ಶುಭಾಶಯಗಳು</title>
+    <style>
+        body {
+            background: radial-gradient(#1a1a2e, #0f0f2f);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-family: 'Segoe UI', sans-serif;
+            overflow-x: hidden;
+        }
+        .container {
+            max-width: 500px;
+            margin: auto;
+        }
+        img {
+            max-width: 90%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 0 30px #fff;
+            margin-top: 20px;
+        }
+        h1 {
+            color: #ffd700;
+            font-size: 2.2em;
+            margin-top: 20px;
+            text-shadow: 0 0 10px #ffd700;
+        }
+        .static-greeting {
+            color: #fadf70;
+            font-size: 1.8em;
+            margin-top: 25px;
+            margin-bottom: 20px;
+            text-shadow: 0 0 8px #fadf70;
+            line-height: 1.4;
+        }
+        .greeting {
+            font-size: 1.5em;
+            color: #e0e0e0;
+            margin-top: 20px;
+            animation: fadeIn 2s;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .sender-name {
+            font-size: 1.2em;
+            color: #fafad2;
+            margin-top: 10px;
+            animation: slideIn 1.5s;
+        }
+        @keyframes slideIn {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        input[type="text"] {
+            width: 80%;
+            padding: 12px;
+            margin-top: 20px;
+            border: 1px solid #ffd700;
+            border-radius: 5px;
+            background-color: #1a1a2e;
+            color: #ffffff;
+            font-size: 1em;
+        }
+
+        /* Main SHARE button style */
+        .share-button {
+            background-color: #28a745;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 20px;
+            font-weight: bold;
+            font-size: 1.2em;
+            letter-spacing: 1px;
+            transition: transform 0.2s, background-color 0.3s;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .share-button:hover {
+            background-color: #218838;
+            transform: scale(1.05);
+        }
+        .share-button svg {
+            margin-right: 10px;
+            width: 20px;
+            height: 20px;
+        }
+
+        /* Social Share Icons Container */
+        .social-icons-container {
+            margin-top: 25px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        /* Individual Social Icon Style */
+        .social-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            color: white;
+            text-decoration: none;
+            transition: transform 0.3s, opacity 0.2s;
+        }
+        .social-icon:hover {
+            transform: scale(1.15);
+        }
+        .social-icon svg {
+            width: 22px;
+            height: 22px;
+        }
+        #whatsapp-icon { background-color: #25D366; }
+        #facebook-icon { background-color: #1877F2; }
+        #instagram-icon {
+            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>ॐ नमः शिवाय</h1>
+        
+        <img src="God-Shiva-wallpapers-1.gif" alt="Lord Shiva Animation">
+
+        <h2 class="static-greeting">ಶ್ರಾವಣ ಸೋಮವಾರದ ನಿಮಗೂ ನಿಮ್ಮ ಕುಟುಂಬದವರಿಗೂ ಹಾರ್ದಿಕ ಶುಭಾಶಯಗಳು</h2>
+
+        <div id="greetingSection">
+            <!-- Dynamic greeting appears here -->
+        </div>
+
+        <div id="inputSection">
+            <p>ಈ ಶುಭಾಶಯವನ್ನು ನಿಮ್ಮ ಹೆಸರಿನೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಲು:</p>
+            <input type="text" id="nameInput" placeholder="ನಿಮ್ಮ ಹೆಸರು (ಐಚ್ಛಿಕ)">
+            
+            <!-- Main Share Button (for multiple options) -->
+            <button class="share-button" id="shareButton" onclick="shareWish()">
+                <svg fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 8.81C7.5 8.31 6.79 8 6 8c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92s2.92-1.31 2.92-2.92-1.31-2.92-2.92-2.92z"></path>
+                </svg>
+                <span id="buttonText">SHARE</span>
+            </button>
+
+            <!-- Social Share Icons Below (for direct app sharing) -->
+            <div class="social-icons-container">
+                <a href="javascript:void(0)" id="whatsapp-icon" class="social-icon" onclick="shareToPlatform('whatsapp')" aria-label="Share on WhatsApp">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.75 13.96c.25.79-1.35 1.7-2.32 1.83-1.05.15-2.28-.08-3.32-.53-1.4-.62-2.52-1.74-3.53-3.04-1.12-1.42-1.55-2.8-1.52-3.87.03-.9.45-1.7.98-2.2s1.2-.74 1.85-.68c.5.05.95.24 1.37.8.4.54.52 1.22.44 1.8-.1.58-.45 1.05-.82 1.4s-.55.6-.26 1.05c.35.5.86 1.02 1.5 1.5.8.62 1.5.82 2.13.72.6-.08 1.15-.45 1.6-1.02.43-.54.9-.84 1.48-.68.52.12 1.04.5 1.37 1.1.28.5.25.98.02 1.5zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/></svg>
+                </a>
+                <a href="javascript:void(0)" id="facebook-icon" class="social-icon" onclick="shareToPlatform('facebook')" aria-label="Share on Facebook">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3v9h4v-9z"></path></svg>
+                </a>
+                <a href="javascript:void(0)" id="instagram-icon" class="social-icon" onclick="shareToPlatform('instagram')" aria-label="Share on Instagram">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.85s-.011 3.584-.069 4.85c-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07s-3.584-.012-4.85-.07c-3.252-.148-4.771-1.691-4.919-4.919-.058-1.265-.069-1.645-.069-4.85s.011-3.584.069-4.85c.149-3.225 1.664-4.771 4.919 4.919 1.266-.058 1.644-.07 4.85-.07zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948s.014 3.667.072 4.947c.2 4.358 2.618 6.78 6.98 6.98 1.281.059 1.689.073 4.948.073s3.667-.014 4.947-.072c4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.947s-.014-3.667-.072-4.947c-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.689-.073-4.948-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.162 6.162 6.162 6.162-2.759 6.162-6.162-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4s1.791-4 4-4 4 1.79 4 4-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44 1.441-.645 1.441-1.44-.645-1.44-1.441-1.44z"></path></svg>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        window.onload = function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const senderName = urlParams.get('sender');
+            if (senderName) {
+                document.getElementById('greetingSection').innerHTML = `
+                    <p class="sender-name">ಈ ಶುಭಾಶಯವನ್ನು ಕಳುಹಿಸಿದವರು:</p>
+                    <p class="greeting" style="font-size: 1.8em; color: #fff;">~ ${senderName} ~</p>
+                `;
+                document.getElementById('inputSection').querySelector('p').textContent = "ನೀವು ಕೂಡ ಈ ಶುಭಾಶಯವನ್ನು ನಿಮ್ಮ ಸ್ನೇಹಿತರಿಗೆ ಹಂಚಿಕೊಳ್ಳಬಹುದು:";
+            } else {
+                document.getElementById('greetingSection').innerHTML = `<p class="greeting">ಶಿವನ ದೈವಿಕ ಆಶೀರ್ವಾದ ಸದಾ ನಿಮ್ಮ ಮೇಲಿರಲಿ.</p>`;
+            }
+        };
+
+        function getShareData() {
+            const name = document.getElementById('nameInput').value.trim();
+            const baseUrl = window.location.href.split('?')[0];
+            let newUrl = baseUrl;
+            let messageText = `*ॐ नमः शिवाय* 🙏\n\nಶ್ರಾವಣ ಸೋಮವಾರದ ಶುಭಾಶಯಗಳು! ನಿಮಗೂ ನಿಮ್ಮ ಕುಟುಂಬಕ್ಕೂ ಶಿವನ ಆಶೀರ್ವಾದ ಸದಾ ಇರಲಿ.`;
+
+            if (name) {
+                newUrl = `${baseUrl}?sender=${encodeURIComponent(name)}`;
+                messageText += `\n\n*ಈ ಶುಭಾಶಯ ಕಳುಹಿಸಿದವರು: ${name}*`;
+            }
+            return { url: newUrl, text: messageText };
+        }
+
+        // Main SHARE button - opens native mobile menu
+        async function shareWish() {
+            const data = getShareData();
+            const shareData = {
+                title: 'ಶ್ರಾವಣ ಸೋಮವಾರದ ಶುಭಾಶಯಗಳು',
+                text: data.text,
+                url: data.url,
+            };
+
+            if (navigator.share) {
+                try {
+                    await navigator.share(shareData);
+                } catch (err) {
+                    console.error('Share failed:', err.message);
+                }
+            } else {
+                copyToClipboard(data.url);
+                const buttonText = document.getElementById('buttonText');
+                const originalText = buttonText.textContent;
+                buttonText.textContent = 'COPIED!';
+                setTimeout(() => {
+                    buttonText.textContent = originalText;
+                }, 2000);
+            }
+        }
+
+        // Individual social media icons
+        function shareToPlatform(platform) {
+            const data = getShareData();
+            let shareUrl;
+
+            switch (platform) {
+                case 'whatsapp':
+                    // This will try to open the WhatsApp app directly
+                    shareUrl = `whatsapp://send?text=${encodeURIComponent(data.text + '\n\n' + data.url)}`;
+                    window.location.href = shareUrl;
+                    break;
+                case 'facebook':
+                    shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(data.url)}`;
+                    window.open(shareUrl, '_blank');
+                    break;
+                case 'instagram':
+                    copyToClipboard(data.url);
+                    const instaIcon = document.getElementById('instagram-icon');
+                    instaIcon.style.opacity = '0.5';
+                    setTimeout(() => {
+                        instaIcon.style.opacity = '1';
+                    }, 500);
+                    break;
+            }
+        }
+
+        function copyToClipboard(text) {
+            if (navigator.clipboard) {
+                navigator.clipboard.writeText(text).catch(err => console.error('Clipboard copy failed:', err));
+            } else {
+                const textArea = document.createElement("textarea");
+                textArea.value = text;
+                textArea.style.position = "fixed";
+                document.body.appendChild(textArea);
+                textArea.focus();
+                textArea.select();
+                try { document.execCommand('copy'); } 
+                catch (err) { console.error('Fallback copy failed:', err); }
+                document.body.removeChild(textArea);
+            }
+        }
+    </script>
+
+</body>
+</html>
+<script type="text/javascript">
+	atOptions = {
+		'key' : 'be363fb8fc518f104c1445d573b447cf',
+		'format' : 'iframe',
+		'height' : 60,
+		'width' : 468,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.highperformanceformat.com/be363fb8fc518f104c1445d573b447cf/invoke.js"></script>
+<script type="text/javascript">
+	atOptions = {
+		'key' : 'be363fb8fc518f104c1445d573b447cf',
+		'format' : 'iframe',
+		'height' : 60,
+		'width' : 468,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.highperformanceformat.com/be363fb8fc518f104c1445d573b447cf/invoke.js"></script>
+<script type="text/javascript">
+	atOptions = {
+		'key' : 'be363fb8fc518f104c1445d573b447cf',
+		'format' : 'iframe',
+		'height' : 60,
+		'width' : 468,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.highperformanceformat.com/be363fb8fc518f104c1445d573b447cf/invoke.js"></script>
+<script type="text/javascript">
+	atOptions = {
+		'key' : 'be363fb8fc518f104c1445d573b447cf',
+		'format' : 'iframe',
+		'height' : 60,
+		'width' : 468,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.highperformanceformat.com/be363fb8fc518f104c1445d573b447cf/invoke.js"></script>
+<script type="text/javascript">
+	atOptions = {
+		'key' : 'be363fb8fc518f104c1445d573b447cf',
+		'format' : 'iframe',
+		'height' : 60,
+		'width' : 468,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.highperformanceformat.com/be363fb8fc518f104c1445d573b447cf/invoke.js"></script>
+<script type="text/javascript">
+	atOptions = {
+		'key' : 'be363fb8fc518f104c1445d573b447cf',
+		'format' : 'iframe',
+		'height' : 60,
+		'width' : 468,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.highperformanceformat.com/be363fb8fc518f104c1445d573b447cf/invoke.js"></script>
+<script type="text/javascript">
+	atOptions = {
+		'key' : 'be363fb8fc518f104c1445d573b447cf',
+		'format' : 'iframe',
+		'height' : 60,
+		'width' : 468,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.highperformanceformat.com/be363fb8fc518f104c1445d573b447cf/invoke.js"></script>
+<script type="text/javascript">
+	atOptions = {
+		'key' : 'be363fb8fc518f104c1445d573b447cf',
+		'format' : 'iframe',
+		'height' : 60,
+		'width' : 468,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.highperformanceformat.com/be363fb8fc518f104c1445d573b447cf/invoke.js"></script>
+<script type="text/javascript">
+	atOptions = {
+		'key' : 'be363fb8fc518f104c1445d573b447cf',
+		'format' : 'iframe',
+		'height' : 60,
+		'width' : 468,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.highperformanceformat.com/be363fb8fc518f104c1445d573b447cf/invoke.js"></script>
+<script type="text/javascript">
+	atOptions = {
+		'key' : 'be363fb8fc518f104c1445d573b447cf',
+		'format' : 'iframe',
+		'height' : 60,
+		'width' : 468,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.highperformanceformat.com/be363fb8fc518f104c1445d573b447cf/invoke.js"></script>
+<script type="text/javascript">
+	atOptions = {
+		'key' : 'be363fb8fc518f104c1445d573b447cf',
+		'format' : 'iframe',
+		'height' : 60,
+		'width' : 468,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.highperformanceformat.com/be363fb8fc518f104c1445d573b447cf/invoke.js"></script>
+<script type="text/javascript">
+	atOptions = {
+		'key' : 'be363fb8fc518f104c1445d573b447cf',
+		'format' : 'iframe',
+		'height' : 60,
+		'width' : 468,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.highperformanceformat.com/be363fb8fc518f104c1445d573b447cf/invoke.js"></script>
+<script type="text/javascript">
+	atOptions = {
+		'key' : 'be363fb8fc518f104c1445d573b447cf',
+		'format' : 'iframe',
+		'height' : 60,
+		'width' : 468,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.highperformanceformat.com/be363fb8fc518f104c1445d573b447cf/invoke.js"></script>
+<script type="text/javascript">
+	atOptions = {
+		'key' : 'be363fb8fc518f104c1445d573b447cf',
+		'format' : 'iframe',
+		'height' : 60,
+		'width' : 468,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.highperformanceformat.com/be363fb8fc518f104c1445d573b447cf/invoke.js"></script>
+<script type="text/javascript">
+	atOptions = {
+		'key' : 'be363fb8fc518f104c1445d573b447cf',
+		'format' : 'iframe',
+		'height' : 60,
+		'width' : 468,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.highperformanceformat.com/be363fb8fc518f104c1445d573b447cf/invoke.js"></script>
+<script type="text/javascript">
+	atOptions = {
+		'key' : 'be363fb8fc518f104c1445d573b447cf',
+		'format' : 'iframe',
+		'height' : 60,
+		'width' : 468,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.highperformanceformat.com/be363fb8fc518f104c1445d573b447cf/invoke.js"></script>
